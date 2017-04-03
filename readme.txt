@@ -7,6 +7,8 @@
  *
  */
 
+* The results tested on both the remote machine and the local machine are listed below
+
 * Testing on remote machine:
 	(1) With no loss: 0 (10 counts)
 		
@@ -33,7 +35,7 @@
 
 	(2) With moderate loss: 0.5 (10 counts)
 		
-		Client received about half of packets that sent to server immediately:
+		The client received about half of packets that are sent to server immediately:
 
 			Pinged csil-cpu6.csil.sfu.ca [206.12.16.220]  with 41 bytes of data:
 
@@ -54,9 +56,9 @@
 			Minimux = 103ms, Maximun = 194ms, Average = 158.00ms
 
 
-	(3) With  total and high loss: 1.0 (10 counts)
+	(3) With total and high loss: 1.0 (10 counts)
 
-		Client received NO packets and print out "All packets are lost" warning:
+		The client received NO packets and printed out "All packets are lost" warning:
 
 			Pinged csil-cpu6.csil.sfu.ca [206.12.16.220]  with 41 bytes of data:
 
@@ -98,7 +100,7 @@
 
 	(2) With moderate loss: 0.5 (default counts)
 
-		Client received about half of packets that sent to server immediately:
+		The client received about half of packets that are sent to server immediately:
 
 			Pinging localhost [127.0.0.1]  with 41 bytes of data:
 
@@ -114,7 +116,7 @@
 
 	(3) With total and high loss: 1.0 (default counts)
 
-		Client received NO packets and print out "All packets are lost" warning:
+		The client received NO packets and printed out "All packets are lost" warning:
 
 			Pinged localhost [127.0.0.1]  with 41 bytes of data:
 		
